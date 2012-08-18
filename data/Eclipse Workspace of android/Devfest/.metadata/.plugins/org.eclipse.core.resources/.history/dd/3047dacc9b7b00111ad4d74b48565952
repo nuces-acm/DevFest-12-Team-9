@@ -1,0 +1,143 @@
+package com.dcs.app;
+
+import org.ksoap2.SoapEnvelope;
+import org.ksoap2.serialization.SoapObject;
+import org.ksoap2.serialization.SoapPrimitive;
+import org.ksoap2.serialization.SoapSerializationEnvelope;
+import org.ksoap2.transport.HttpTransportSE;
+
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.Intent;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class SigninActivity extends Activity {
+	/** Called when the activity is first created. */
+	public static final String URL = "http://192.168.1.121/LW/Service1.asmx";
+	public static final String NAMESPACE = "http://tempuri.org/";
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.signin);
+		((Button) findViewById(R.id.loginButton))
+				.setOnClickListener(new OnClickListener() {
+
+					public void onClick(View v) {
+						String phone = ((EditText) findViewById(R.id.phoneET))
+								.getText().toString();
+
+						String password = ((EditText) findViewById(R.id.passwordET))
+								.getText().toString();
+						Toast.makeText(SigninActivity.this,
+								phone + " : " + password, Toast.LENGTH_SHORT)
+								.show();
+						startActivity(new Intent(SigninActivity.this,
+								ClientMainActivity.class));
+					}
+				});
+	}
+
+	public class AsynCallToWebService extends AsyncTask<Void, Void, String> {
+
+		private ProgressDialog dialog;
+		private String usecaseString;
+		private String addPropertyString[];
+		private String propertyJsonString[];
+
+		public AsynCallToWebService(String usecasString,
+				String[] addPropertyString, String[] propertyJsonString) {
+			this.usecaseString = usecasString;
+			this.addPropertyString = addPropertyString;
+			this.propertyJsonString = propertyJsonString;
+
+		}
+
+		@Override
+		protected String doInBackground(Void... voids) {
+			String result = "nothing";
+			// Update status online
+			/*
+			 * try { this.usecaseString = data[2]; // result =
+			 * Utils.CallWebService(URL, SOAP_ACTION, ENVELOPE); result =
+			 * Utility.sendRequestToServer(AppConsts.URL, data[0], data[1]);
+			 * 
+			 * } catch (Exception e) { Log.e("static", "Exc : " + e.toString());
+			 * }
+			 */
+
+			final SoapObject request = new SoapObject(NAMESPACE, usecaseString);
+
+			for (int i = 0; i < addPropertyString.length; i++) {
+				request.addProperty(addPropertyString[i], propertyJsonString[i]);
+			}
+
+			final SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(
+					SoapEnvelope.VER11);
+			envelope.dotNet = true;
+			envelope.setOutputSoapObject(request);
+			final HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
+
+			String soapAction = NAMESPACE + usecaseString;
+
+			try {
+				androidHttpTransport.call(soapAction, envelope);
+
+				SoapPrimitive resultSoapPrimitive;
+				resultSoapPrimitive = (SoapPrimitive) envelope.getResponse();
+				if (resultSoapPrimitive != null) {
+					result = resultSoapPrimitive.toString();
+					Log.d("static", "result json : " + result);
+				} else {
+					Log.d("static", "result json is NULL!!! ");
+
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+				Log.e("static", "Exception in making call to server");
+			}
+
+			return result;
+		}
+
+
+		@Override
+		protected void onPreExecute() {
+
+			dialog = ProgressDialog.show((Context) activity, "",
+					"Getting data. Please wait...", true);
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			super.onPostExecute(result);
+			if (isCancelled() == false) {
+				try {
+					// activity.parse(Utility.getJsonFromSOAP(result),
+					// usecaseString);
+					activity.parse(result, usecaseString);
+				} catch (Exception e) {
+					e.printStackTrace();
+					Log.e("static", e.getMessage());
+					Toast.makeText((Context) activity,
+							AppConsts.EXCEPTION_OCCURED, Toast.LENGTH_LONG)
+							.show();
+				} finally {
+					dialog.dismiss();
+				}
+
+			}
+
+		}
+
+	}
+
+}

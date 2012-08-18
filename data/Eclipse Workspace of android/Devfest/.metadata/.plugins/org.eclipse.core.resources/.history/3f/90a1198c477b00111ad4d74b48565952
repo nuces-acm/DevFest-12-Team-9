@@ -1,0 +1,37 @@
+package com.dcs.app;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class ClientMainActivity extends Activity{
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+		((Button) findViewById(R.id.testsButton))
+		.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+			Toast.makeText(ClientMainActivity.this," Tests Button", Toast.LENGTH_LONG).show();
+			}
+		});
+
+		((Button) findViewById(R.id.sendConditionButton))
+		.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+			Toast.makeText(ClientMainActivity.this," Tests Button", Toast.LENGTH_LONG).show();
+			}
+		});
+		
+		
+		
+	}
+
+}

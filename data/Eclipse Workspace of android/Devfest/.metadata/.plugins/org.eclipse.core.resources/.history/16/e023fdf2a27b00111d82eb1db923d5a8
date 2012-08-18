@@ -1,0 +1,64 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/testsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tests" />
+
+    <Button
+        android:id="@+id/prescriptionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prescriptions" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp" />
+
+</LinearLayout>
+ -->
+ 
+ <?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget35"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+	android:id="@+id/widget32"
+	android:layout_width="117px"
+	android:layout_height="wrap_content"
+	android:text="Button"
+	android:layout_x="-1dp"
+	android:layout_y="-2dp" />
+<EditText
+	android:id="@+id/widget33"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="EditText"
+	android:textSize="18sp"
+	android:layout_x="119dp"
+	android:layout_y="-4dp" />
+<TabWidget
+	android:id="@android:id/tabs"
+	android:layout_width="wrap_content"
+	android:layout_height="49px"
+	android:layout_x="97dp"
+	android:layout_y="57dp" />
+<EditText
+	android:id="@+id/widget67"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="EditText"
+	android:textSize="18sp"
+	android:layout_x="111dp"
+	android:layout_y="172dp" />
+</AbsoluteLayout>
+ 

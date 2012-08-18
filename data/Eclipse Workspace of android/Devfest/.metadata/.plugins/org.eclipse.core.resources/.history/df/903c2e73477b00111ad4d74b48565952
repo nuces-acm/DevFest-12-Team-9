@@ -1,0 +1,31 @@
+package com.dcs.app;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class ClientMainActivity extends Activity{
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+		((Button) findViewById(R.id.loginButton))
+		.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				String phone = ((EditText) findViewById(R.id.phoneET))
+						.getText().toString();
+				
+				String password = ((EditText) findViewById(R.id.passwordET))
+						.getText().toString();
+				Toast.makeText(ClientMainActivity.this,"", Toast.LENGTH_LONG).show();
+			}
+		});
+	}
+
+}

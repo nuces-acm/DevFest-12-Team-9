@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\inetpub\wwwroot\test" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/DengueControlSystemWebService.xml" publishTime="04/01/2012 09:49:12" />
+    <file relUrl="Service1.asmx" publishTime="04/01/2012 02:09:53" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="03/20/2012 21:11:26" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="03/20/2012 21:11:26" />
+    <file relUrl="Web.config" publishTime="04/01/2012 09:49:13" />
+    <file relUrl="bin/DengueControlSystemWebService.dll" publishTime="04/01/2012 09:49:12" />
+    <file relUrl="bin/DengueControlSystemWebService.pdb" publishTime="04/01/2012 09:49:12" />
+    <file relUrl="bin/Newtonsoft.Json.pdb" publishTime="03/20/2012 21:11:26" />
+  </publishProfile>
+</publishData>

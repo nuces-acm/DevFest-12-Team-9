@@ -1,0 +1,15 @@
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\bin\Debug\DengueControlSystemDoctor.exe
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\bin\Debug\DengueControlSystemDoctor.pdb
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\bin\Debug\DengueControlSystemDoctor.xml
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\MainWindow.baml
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\MainWindow.g.vb
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\Application.g.vb
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\DengueControlSystemDoctor_MarkupCompile.cache
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\DengueControlSystemDoctor.g.resources
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\DengueControlSystemDoctor.Resources.resources
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\DengueControlSystemDoctor.exe
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\DengueControlSystemDoctor.xml
+C:\Users\Dev Fest\MICROSOFT\DengueControlSystemDoctor\DengueControlSystemDoctor\obj\x86\Debug\DengueControlSystemDoctor.pdb

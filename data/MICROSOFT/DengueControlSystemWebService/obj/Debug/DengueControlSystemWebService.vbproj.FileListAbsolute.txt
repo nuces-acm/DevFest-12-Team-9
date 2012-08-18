@@ -1,0 +1,25 @@
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\obj\Debug\DengueControlSystemWebService.Resources.resources
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\obj\Debug\ResGen.read.1.tlog
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\obj\Debug\ResGen.write.1.tlog
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\bin\DengueControlSystemWebService.dll
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\bin\DengueControlSystemWebService.pdb
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\bin\DengueControlSystemWebService.xml
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\bin\Newtonsoft.Json.dll
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\bin\Newtonsoft.Json.pdb
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\bin\Newtonsoft.Json.xml
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\obj\Debug\DengueControlSystemWebService.dll
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\obj\Debug\DengueControlSystemWebService.xml
+C:\Users\Awais\Desktop\Dev Fest\DengueControlSystemWebService\DengueControlSystemWebService\obj\Debug\DengueControlSystemWebService.pdb
+C:\inetpub\wwwroot\DengueControlSystemWebService\bin\DengueControlSystemWebService.dll
+C:\inetpub\wwwroot\DengueControlSystemWebService\bin\DengueControlSystemWebService.pdb
+C:\inetpub\wwwroot\DengueControlSystemWebService\bin\DengueControlSystemWebService.xml
+C:\inetpub\wwwroot\DengueControlSystemWebService\bin\Newtonsoft.Json.pdb
+C:\inetpub\wwwroot\DengueControlSystemWebService\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\DengueControlSystemWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\DengueControlSystemWebService\obj\Debug\DengueControlSystemWebService.Resources.resources
+C:\inetpub\wwwroot\DengueControlSystemWebService\obj\Debug\ResGen.read.1.tlog
+C:\inetpub\wwwroot\DengueControlSystemWebService\obj\Debug\ResGen.write.1.tlog
+C:\inetpub\wwwroot\DengueControlSystemWebService\obj\Debug\DengueControlSystemWebService.dll
+C:\inetpub\wwwroot\DengueControlSystemWebService\obj\Debug\DengueControlSystemWebService.xml
+C:\inetpub\wwwroot\DengueControlSystemWebService\obj\Debug\DengueControlSystemWebService.pdb

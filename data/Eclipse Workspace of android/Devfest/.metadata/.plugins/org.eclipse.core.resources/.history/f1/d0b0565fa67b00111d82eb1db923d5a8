@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget35"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TabWidget
+	android:id="@android:id/tabs"
+	android:layout_width="wrap_content"
+	android:layout_height="49px"
+	android:layout_x="97dp"
+	android:layout_y="57dp" />
+
+<Button
+    android:id="@+id/widget32"
+    android:layout_width="117px"
+    android:layout_height="wrap_content"
+    android:layout_x="126dp"
+    android:layout_y="9dp"
+    android:text="Button" />
+
+<EditText
+    android:id="@+id/widget67"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="224dp"
+    android:layout_y="11dp"
+    android:text="EditText"
+    android:textSize="18sp" />
+
+<EditText
+    android:id="@+id/widget33"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="6dp"
+    android:layout_y="10dp"
+    android:text="EditText"
+    android:textSize="18sp" />
+
+</AbsoluteLayout>
